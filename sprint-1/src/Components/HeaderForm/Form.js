@@ -13,7 +13,7 @@ function Form (){
                         <img className="header__upload" src={upload}/>
                         Upload
                     </button>
-                    <span><img className="header__user-img" width="50px" src={userImg} alt=""/></span>
+                    <span><img className="header__user-img"  src={userImg} alt=""/></span>
                 </form>
             </div>
         )
