@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 169px;
+    padding: 1rem;
+    &__logo {
+        height:25px;
+        margin-bottom: 1rem;
+    }
+    &__form-ctn {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &__input {
+        width:100%;
+        background-color: #FAFAFA;
+        height: 50px;
+        border-radius: 4px;
+        border: 1px solid #AFAFAF;
+        color: #323232;
+        position: relative;
+        font-size: .9rem;
+        margin-bottom: .5rem;
+        &::placeholder{
+            padding-left: 40px;
+        }
+    }
+    &__search {
+        position: absolute;
+        z-index: 1;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}

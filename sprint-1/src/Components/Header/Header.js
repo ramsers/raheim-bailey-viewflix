@@ -1,14 +1,14 @@
 import React from 'react';
+import Form from '../HeaderForm/Form';
 import './Header.scss';
+import logo from './HeaderAssets/Logo-brainflix.png';
 
 class Header extends React.Component {
     render() {
         return(
-            <header>
-                <div>
-                    <h1>Testing Font</h1>
-                    <p>Not working anymore?</p>
-                </div>
+            <header className="header">
+                    <img className="header__logo" src={logo} alt=""/>
+                <Form />
             </header>
         )
     }
