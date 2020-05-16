@@ -1,4 +1,5 @@
 import React from 'react';
+import './NextVideo.scss'
 import sideVideos from './NextVideoData';
 
 class NextVideo extends React.Component {

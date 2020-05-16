@@ -1,0 +1,8 @@
+@import '../../partials/variables';
+@import '../../partials/mixins';
+
+.next-video {
+    &__img {
+        width:100px;
+    }
+}

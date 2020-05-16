@@ -15,7 +15,7 @@ function MainVidContent(props) {
             <div className="main-vid__info">
                 <h1 className="main-vid__header">{props.mainContent.title}</h1>
                 <aside className="main-vid__poster-info">
-                    <p className="main-vid__author">{props.mainContent.channel}</p>
+                    <span className="main-vid__author">{props.mainContent.channel}</span>
                     <span className="main-vid__date">{props.mainContent.timestamp}</span>
                 </aside>
                 <aside className="main-vid__viewer-info">
