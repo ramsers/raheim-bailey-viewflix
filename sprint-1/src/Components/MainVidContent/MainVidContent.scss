@@ -3,6 +3,7 @@
 
 
 .main-vid {
+    margin-bottom: 2.5rem;
     &__hero{
         margin-top: 1rem;
         height: 57vw;
@@ -66,6 +67,12 @@
         height: 1px;
         background-color: #E1E1E1; 
         margin-bottom: 1.5rem;
+    }
+    &__desc{
+        font-size: .8rem;
+        line-height: 1.2rem;
+        text-align: left;
+        color: #323232;
     }
 
 }
