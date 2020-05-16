@@ -1,10 +1,13 @@
 // Side Video Object
 const sideVideo = {
-    id: 'type of <string>', 
+   sidevideo1: {id: 'type of <string>', 
     title: 'type of <string>', 
     channel: 'type of <string>', 
-    image: 'type of <string>' 
-};
+    image: 'type of <string>'
+}
+         
+    
+}
 
 //Main Video Object
 const mainVideo = {

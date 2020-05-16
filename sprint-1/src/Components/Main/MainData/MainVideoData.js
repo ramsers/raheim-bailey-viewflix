@@ -29,19 +29,22 @@ const mainVideoData = {
     video: 'type of <string>',
     timestamp: `${month}/${date}/${year}`,
     comments: [
-        {
+            {
+            id: uuidv4(),
             name:"Micheal Lyons", 
             timestamp:"12/18/2018",
             comment: "They BLEW the ROOF off their last show, once everyone started figuring out they were going. This is still simply the greates opening of a concert I have EVER wistnessed",
             image: '../../assets/images/spirit-animal-1.jpg'
            },
            {
+            id: uuidv4(),   
             name:"Gary Wong",
             timestamp: "12/12/2018",
             comment: "Everytime I see him shred I feel so motivated to get off my couch and hop on my board. Hw's so talented! I wish I can ride like him one day so I can really enjoy myself!",
             image: '../../assets/images/puppy-2.jpg'   
            },
            {
+            id: uuidv4(),   
             name: "Theodore Duncan ",
             timestamp: "11/15/2018",
             comment: "How can someone be so good!!! Yo can tell he lives for this and loves to do it everyday. Everytime I see him I feel instantly happy! He's definitely my favorite ever",   
