@@ -12,15 +12,17 @@
         justify-content: flex-start;
         padding: 1rem 1.5rem 1rem 1.5rem;
         height: 80px;
-        align-items: center;
+        align-items: flex-end;
     }
     @include desktop-small {
         justify-content: space-between;
         padding: 1rem 6rem 1rem 6rem;
+        align-items: flex-end;
     }
     @include desktop-lg {
         justify-content: space-between;
         padding: 1rem 6rem 1rem 6rem;
+        align-items: flex-end;
     }
     &__logo {
         height:25px;
