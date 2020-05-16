@@ -5,15 +5,14 @@ import MainVideoData from '../Main/MainData/MainVideoData';
 
 class GenerateComments extends React.Component {
     state = {
-        mainComments: MainVideoData.comments,
-        key: MainVideoData.comments.id
+        mainComments: MainVideoData.comments
     }
     render() {
         return (
             this.state.mainComments.map(comment =>{
                 return(
-                        <div className="comments__user-comment-ctn">
-                            <div key={this.state.key}  className="comments__gen">
+                        <div key={comment.id} className="comments__user-comment-ctn">
+                            <div   className="comments__gen">
                                 <div  className="comments__gen-ctn">
                                     <h4 className="comments__name">{comment.name}</h4>
                                     <p className="comments__time">{comment.timestamp}</p>

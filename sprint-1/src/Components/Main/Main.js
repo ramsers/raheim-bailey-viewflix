@@ -15,9 +15,9 @@ class Main extends React.Component {
     render() {
         return(
             <main className="main-content">
-                <MainVidContent key ={this.state.mainContent.id} mainContent={this.state.mainContent}/>
+                <MainVidContent  mainContent={this.state.mainContent}/>
                 <Comments mainContent={this.state.mainContent}/>
-                <GenerateComments key ={this.state.mainContent.comments.id }/>
+                <GenerateComments />
                 <NextVideo/>
             </main>
         )
