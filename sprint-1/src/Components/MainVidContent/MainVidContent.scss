@@ -1,0 +1,19 @@
+@import '../../partials/variables';
+@import '../../partials/mixins';
+
+
+.main-vid {
+    &__hero{
+        margin-top: 1rem;
+        height: 57vw;
+        margin-bottom: 2rem;
+    }
+    &__hero-ctn {
+        height: 100%;
+        width: 100%;
+    }
+    &__hero-img {
+        height: 100%;
+        width: 100%;
+    }
+}
