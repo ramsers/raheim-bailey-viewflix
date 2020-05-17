@@ -12,6 +12,13 @@
     &__hero-ctn {
         height: 100%;
         width: 100%;
+        @include tablet {
+            height: 92%;
+            width: 100%;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            background-color: #323232;
+        }
     }
     &__hero-img {
         height: 100%;

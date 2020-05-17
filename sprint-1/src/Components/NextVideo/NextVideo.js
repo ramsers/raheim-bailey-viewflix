@@ -11,18 +11,20 @@ class NextVideo extends React.Component {
         let noFirst = sideVid.filter( vid => vid.title !== "BMX Rampage: 2018 Highlights");
         
         return(
-        <div className="next-video__ctn">
+        <aside className="next-vid">
             {
                 noFirst.map(nextVids => {
                 return (
-                        <div key={nextVids.id} className="next-video">
-                            <img className="next-video__img" src={nextVids.image} alt=""/>
-                            <h4 className="next-video__header">{nextVids.title}</h4>
-                            <p className="next-video__channel">{nextVids.channel}</p>
+                        <div key={nextVids.id} className="next-vid__ctn">
+                            <img className="next-vid__img" src={nextVids.image} alt="Thumbnail for Suggested Video"/>
+                            <div className="next-vid__channel-info">
+                                <h4 className="next-vid__header">{nextVids.title}</h4>
+                                <p className="next-vid__channel">{nextVids.channel}</p>
+                            </div>
                         </div>
                     )
             })}
-        </div>
+        </aside>
         )
     }
 }
