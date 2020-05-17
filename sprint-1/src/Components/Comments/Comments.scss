@@ -1,0 +1,192 @@
+@import '../../partials/variables';
+@import '../../partials/mixins';
+
+// Hero Section Styles
+
+.comments {
+    &__head {
+        padding: 0 0 2rem 1rem;
+        font-size: 1.2rem;
+        font-weight: 600; 
+        @include tablet {
+            padding: 0 0 3.5rem 1.5rem; 
+            font-size: 3rem;
+        }
+        @include desktop-lg {
+            padding: 0 0 3.5rem 3rem;
+        }
+    }
+    &__ctn {
+        padding: 0 1rem 0 1rem;
+        @include tablet {
+            padding: 0 1rem 2rem 1rem;
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #E1E1E1;
+        @include tablet {
+            display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: flex-start;
+          border-bottom: 1px solid #E1E1E1;
+          width: 73vw;
+        }
+    }
+    &__form-info-ctn {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        @include tablet {
+            width:95%;
+        }
+    }
+    &__title {
+        font-size: 1rem;
+        color: #AFAFAF;
+        text-transform: uppercase;
+        padding-bottom: .5rem;
+    }
+    &__title-2 {
+        font-size: .8rem;
+        font-weight: 500;
+        color: silver;
+        text-transform: uppercase;
+        padding-bottom: .5rem;
+    }
+    &__field {
+        border: 1px solid #AFAFAF;
+        background: #FAFAFA;
+        border-radius: 5px;
+        height: 95px;
+        margin-bottom: 1.5rem;
+        color: #323232;
+        position: relative;
+        &:placeholder-shown{
+            color: blue;
+        }
+        &:focus{
+            border: 2px solid #323232;
+        }
+        @include tablet {
+            padding: 15px 0 60px 10px;
+        }
+        @include desktop-lg {
+            padding: 15px 0 95px 10px;
+        }
+    }
+    &__placeholder {
+        position: absolute;
+        font-size: .9rem;
+        width: 60%;
+        padding-left: .7rem;
+        padding-top: 2.5rem;
+        line-height: 1.2rem;
+    }
+   
+    &__btn {
+        padding: 20px 10px;
+        border-radius: 5px;
+        color: #FFFFFF;
+        background-color: blue;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        min-width: 212px;
+        display: flex;
+        align-self: flex-end;
+        justify-content: center;  
+        @include tablet {
+          width: 185px;
+          margin-left: 17rem;
+          text-transform: uppercase;
+        }  
+        @include desktop-lg {
+            margin-left: 37rem;
+            text-transform: uppercase;
+        }
+    }
+    &__gen {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin: 2rem 0 2rem 0;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #E1E1E1;
+        @include tablet {
+            justify-content: flex-end;
+        }
+    }
+    &__gen-ctn {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        width: 100%;
+    }
+        &__name {
+            font-weight: 800;
+            font-size: .9rem;
+            width: 70%;
+            @include tablet {
+                font-size: 1.2rem;
+              width: 40%;
+            }
+            @include desktop-lg {
+                width: 25%;
+            }
+        }
+        &__time {
+            font-size: .9rem;
+            color: #AFAFAF;
+            font-weight: 100;
+            width: 26%;
+            display: flex;
+            justify-content: center;
+            @include tablet {
+                font-size: 1.1rem;
+                width: 32%;
+                justify-content: flex-start;
+            }
+        }
+        &__comment {
+            padding-top: 1rem;
+            line-height: 1.2rem;
+            width: 100%;
+            font-size: .8rem;
+            @include tablet {
+                line-height: 1.7rem;
+                font-size: 1.2rem;
+            }
+        }
+        &__user-img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+        &__form-ctn {
+            @include tablet {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        // .user {
+            
+        // }
+        &__comments-ctn {
+            @include tablet {
+                width: 73vw;
+                margin:0 auto;
+            }
+    }
+        &__img-ctn {
+            @include tablet {
+                margin-right: 1rem;
+            }
+        }
+    
+    }
+    
+   
