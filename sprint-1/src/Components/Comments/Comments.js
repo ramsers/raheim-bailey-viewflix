@@ -1,8 +1,7 @@
 import React from 'react';
-import Main from '../Main/Main';
-import {v4 as uuidv4} from 'uuid';
 import './Comments.scss';
 import MainVideoData from '../Main/MainData/MainVideoData';
+import UserImg from './CommentsAssets/Mohan-muruge.jpg';
 
 function Comments() {
     return (
@@ -12,13 +11,13 @@ function Comments() {
                 <div className="comments__form-ctn">
                     <form action="" method="POST" encType="" className="comments__form">
                         <div className="comments__img-ctn">
-                            <img className="comments__user-img" src="img placeholder"/>
+                            <img className="comments__user-img" src={UserImg} alt="comment poster picture"/>
                         </div>
                         <div className="comments__form-info-ctn">
-                            <h5 className="comments__title-2">Join the Conversation</h5>
-                            <input className="comments__field" type="text" name="userVoice" placeholder="" required=""/>
-                            <p className="comments__placeholder">That was easily the most spectacular BMX moment ever.</p>
-                            <button className="comments__btn" type="submit">Comment</button>
+                            <label htmlFor="comments" className="comments__title-2">Join the Conversation</label>
+                                <input className="comments__field" type="text" name="userVoice" placeholder="" required=""/>
+                                <p className="comments__placeholder">That was easily the most spectacular BMX moment ever.</p>
+                                <button className="comments__btn" type="submit">Comment</button>
                         </div>
                     </form>
                 </div>
@@ -44,15 +43,13 @@ class GenerateComments extends React.Component {
                                     <p className="comments__comment">{comment.comment}</p>
                                 </div>
                                 <div   className="comments__img-ctn">
-                                    <img   src="img placeholder" className="comments__user-img"/>
+                                    <img   src={comment.image} className="comments__user-img" alt="comment profile image"/>
                                 </div>
                             </div>
                         </div>
                     )
             })
-        )
-       
-        
+        )  
     }
 }
 

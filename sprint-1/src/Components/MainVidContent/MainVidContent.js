@@ -7,11 +7,7 @@ import likes from './MainVidAssests/Icon-likes.png';
 function MainVidContent(props) {
     return (
         <div className="main-vid">
-            <section className="main-vid__hero">
-                <div className="main-vid__hero-ctn">
-                    <img src={props.mainContent.image} alt="Two BMX Bikers on down slope" className="main-vid__hero-img"/>
-                </div>
-            </section>
+            <div className="border"></div>
             <div className="main-vid__info">
                 <h1 className="main-vid__header">{props.mainContent.title}</h1>
                 <div className="main-vid__info-ctn">

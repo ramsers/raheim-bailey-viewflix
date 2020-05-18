@@ -12,6 +12,7 @@ class NextVideo extends React.Component {
         
         return(
         <aside className="next-vid">
+            <h4 className="next-vid__head">Next Video</h4>
             {
                 noFirst.map(nextVids => {
                 return (
@@ -23,7 +24,7 @@ class NextVideo extends React.Component {
                             </div>
                         </div>
                     )
-            })}
+                })}
         </aside>
         )
     }

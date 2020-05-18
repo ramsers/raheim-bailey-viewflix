@@ -31,7 +31,7 @@ const sideVideos = [
     },
     {
         id: uuidv4(), 
-        title: 'Travel Health Useful Medical Information…', 
+        title: 'Travel Health Useful Medical Information', 
         channel: 'Scotty Cranmer', 
         image: video3, 
     },
