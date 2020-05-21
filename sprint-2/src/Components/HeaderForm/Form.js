@@ -2,17 +2,23 @@ import React from 'react';
 import search from './FormAssets/Icon-search.png';
 import upload from './FormAssets/Icon-upload.png';
 import userImg from './FormAssets/Mohan-muruge.jpg';
+import {BrowserRouter,Router, Route, Link, NavLink, Switch, Redirect} from 'react-router-dom';
+import UploadPage from '../UploadPage/UploadPage';
 
-function Form (){
+function Form (props){
+    let match = props.match;
         return(
             <div className="header__form-ctn">
                 <form className="header__form" action="Post">
                     <img className="header__search" src={search} alt="Brainflix Logo"/>
                     <input className="header__input" type="text" name="Search" placeholder="Search"/>
-                    <button className="header__button">
-                        <img className="header__upload" src={upload} alt="Upload Icon"/>
-                        Upload
-                    </button>
+                       <Link to="/upload">
+                        <button className="header__button">
+                            <img className="header__upload" src={upload} alt="Upload Icon"/>
+                                Upload
+                        </button>
+                        </Link>
+                    
                     <span><img className="header__user-img"  src={userImg} alt="User Image"/></span>
                 </form>
             </div>

@@ -4,10 +4,13 @@ import {Nav} from '../Header/Header';
 import Main from '../Main/Main';
 import logo from '../Header/HeaderAssets/Logo-brainflix.png';
 import thumbnail from './assets/Upload-video-preview.jpg';
+import Header from '../Header/Header';
 import { BrowserRouter, Link, Route, Redirect } from 'react-router-dom';
 
 function UploadPage() {
         return(
+            <>
+            
            <div className="upload__ctn">
                <hr className="upload__split"/>
                <div className="upload">
@@ -28,6 +31,7 @@ function UploadPage() {
                    </div>
                </div>
            </div>
+           </>
         )
 }
 
