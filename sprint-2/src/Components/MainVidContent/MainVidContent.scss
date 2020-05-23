@@ -13,11 +13,11 @@
             margin-bottom: .5rem;
         }
         @include desktop-small {
-            height: fit-content;
+            height: 38vw;
             margin-bottom: 3rem;
         }
         @include desktop-lg {
-            height: fit-content;
+            height: 38vw;
             margin-bottom: 3.5rem;
         }
     }
@@ -33,12 +33,12 @@
             background-color: $black;
         }
         @include desktop-small {
-            height: 93%;
+            height: 100%;
             padding-right: 7rem;
             padding-left: 7rem;
         }
         @include desktop-lg {
-            height: 66%;
+            height: 100%;
             padding-right: 7rem;
             padding-left: 7rem;
         }
@@ -46,7 +46,7 @@
     &__hero-vid {
         height: 100%;
         width: 100%;
-        object-fit: fill;
+        object-fit: cover;
         position: relative;
     }
     

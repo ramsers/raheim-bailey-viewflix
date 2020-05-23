@@ -72,7 +72,7 @@
         }
         @include tablet {
             width: 55%;
-            margin-right: 1.5rem;
+            margin-right: 1rem;
         }
         @include desktop-small {
             width: 45%;
@@ -100,12 +100,12 @@
         font-size: .95rem;
         @include tablet {
             padding: 16px 0 16px 0;
-            width: 23%;
+            width: 90%;
             height: 49px;
             margin-right: 1.5rem;
         }
         @include desktop-small {
-            width: 18%;
+            width: 90%;
         }
     }
     &__upload {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from '../Main/Main';
 import MainImg from './HeroAssets/video-list-0.jpg';
 import fullscreen from './HeroAssets/Icon-fullscreen.png';
 import pause from './HeroAssets/Icon-pause.png';
@@ -13,14 +14,14 @@ function Hero(props) {
                     <img className="main-vid__play" width="20px" src={play} alt="play button"/>
                     <div className="main-vid__playback">
                         <hr className="main-vid__length"/>
-                        <p className="main-vid__time">{props.mainContent.duration}</p>
+                        <p className="main-vid__time">{props.currVidData.duration}</p>
                     </div>
                     <div className="main-vid__screen-volume">
                         <img className="main-vid__fullscreen" src={fullscreen} alt="fullscreen button"/>
                         <img className="main-vid__volume" src={volume} alt="volume button"/>
                     </div>
                 </div>
-                <video className="main-vid__hero-vid" poster={MainImg}></video>
+                <video className="main-vid__hero-vid" poster={props.currVidData.image}>{props.currVidData.title}</video>
             </div>
         </section>
     )

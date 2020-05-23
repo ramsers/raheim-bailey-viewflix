@@ -17,6 +17,7 @@ function Form (props){
                             <img className="header__upload" src={upload} alt="Upload Icon"/>
                                 Upload
                         </button>
+                        {/* Take away button html and put classname in Link */}
                         </Link>
                     
                     <span><img className="header__user-img"  src={userImg} alt="User Image"/></span>
