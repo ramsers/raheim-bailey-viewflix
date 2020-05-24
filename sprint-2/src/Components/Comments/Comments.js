@@ -1,9 +1,6 @@
 import React from 'react';
 import './Comments.scss';
-import MainVideoData from '../Main/MainData/MainVideoData';
-import Main from '../Main/Main';
 import UserImg from './CommentsAssets/Mohan-muruge.jpg';
-import GenerateComments from '../GenComments/GenComments';
 
 class Comments extends React.Component {
     render() {
@@ -30,35 +27,6 @@ class Comments extends React.Component {
     }
  
 }
-
-// class GenerateComment extends React.Component {
-//     state = {
-//         mainComments: MainVideoData.comments
-//     }
-//     render() {
-//         return (
-//             this.state.mainComments.map(comment =>{
-//                 return(
-//                         <div key={comment.id} className="comments__user-comment-ctn">
-//                             <div   className="comments__gen">
-//                                 <div  className="comments__gen-ctn">
-//                                     <h4 className="comments__name">{comment.name}</h4>
-//                                     <p className="comments__time">{comment.timestamp}</p>
-//                                     <p className="comments__comment">{comment.comment}</p>
-//                                 </div>
-//                                 <div   className="comments__img-ctn">
-//                                     <img   src={comment.image} className="comments__user-img" alt="comment profile image"/>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     )
-//             })
-//         )  
-//     }
-// }
-
-
-
 
 
 export default Comments;

@@ -4,8 +4,7 @@ import './partials/_reset.scss';
 import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
 import UploadPage from './Components/UploadPage/UploadPage';
-import {BrowserRouter, Route, Link, NavLink, Switch} from 'react-router-dom';
-import {v4 as uuidv4} from 'uuid';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 class App extends React.Component {
   render() {

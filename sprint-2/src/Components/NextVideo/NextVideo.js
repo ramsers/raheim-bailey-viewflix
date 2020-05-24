@@ -1,9 +1,6 @@
 import React from 'react';
-import './NextVideo.scss'
-import Main from '../Main/Main';
-import axios from 'axios'
-import App from '../../App';
-import { Switch, Route, Link } from 'react-router-dom';
+import './NextVideo.scss';
+import { Link } from 'react-router-dom';
 
 
 class NextVideo extends React.Component {

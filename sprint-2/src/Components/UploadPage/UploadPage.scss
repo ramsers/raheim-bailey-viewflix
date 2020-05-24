@@ -1,23 +1,42 @@
 @import '../../partials/variables';
 @import '../../partials/mixins';
 
+
+.header {
+    position: relative;
+    @include tablet {
+        padding-top: 1.5rem;
+    }
+}
+
 .upload{
     height: 100vw;
     &__ctn{
         padding: 0 1rem 0 1rem;
         height: 100%;
+        @include tablet {
+            padding: 0 1.5rem 0 1.5rem;
+        }
     }
     &__split{
-        margin-top: 1.2rem;
+        margin-top: -1.8rem;
         height: 1px;
         background-color: $mercury;
+        position: absolute;
+        width: 100%;
+        left: 0;
     }
     &__header {
         font-size: 2rem;
         font-weight: 900;
         letter-spacing: .07rem;
-        padding-top: 1.5rem;
+        margin-top: 3.5rem;
         padding-bottom: 2.5rem;
+        @include tablet {
+            font-size: 3rem;
+            padding-top: 2rem;
+            border-bottom: 1px solid $silver;
+        }
     }
     &__thumbnail-head {
         text-transform: uppercase;
@@ -26,12 +45,20 @@
         font-weight: 500;
         color: $silver;
         padding-bottom: .5rem;
+        @include tablet {
+            padding-top: 3rem;
+            font-size: 1rem;
+        }
     }
     &__thumbnail-img {
         width: 100%;
         height: 9.5625rem;
         border-radius: 5px;
         margin-bottom: 2rem;
+        @include tablet {
+            width: 50%;
+            height: 11.5rem;
+        }
     }
     &__form-ctn{
         width: 100%;
@@ -46,6 +73,9 @@
         font-weight: 500;
         color: $silver;
         margin-bottom: 1rem;
+        @include tablet {
+            font-size: 1rem;
+        }
     }
     &__title {
         width:100%;
@@ -60,6 +90,7 @@
         &::placeholder {
             padding-left: 1rem;
             color: $black;
+            font-size: 1rem;
         }
     }
     &__desc{
@@ -76,7 +107,22 @@
             padding-left: 1rem;
             padding-top: 1rem;
             color: $black;
+            font-size: 1rem;
         }
+    }
+    &__split-form {
+        display: none;
+        @include tablet {
+            display: block;
+            height: 1px;
+            background-color: $mercury;
+            margin: 1.5rem 0 3rem 0;
+        }
+    }
+    &__btn-ctn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
     }
     &__publish-btn {
         width: 100%;
@@ -88,6 +134,9 @@
         font-weight: 500;
         font-size: .95rem;
         margin-bottom: 1rem;
+        @include tablet {
+            width: 160px
+        }
     }
     &__cancel-btn {
         width: 100%;
@@ -97,5 +146,8 @@
         font-weight: 500;
         font-size: .95rem;
         color: $brainBlueBright;
+        @include tablet {
+            width: 160px
+        }
     }
 }

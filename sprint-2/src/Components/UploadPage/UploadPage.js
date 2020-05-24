@@ -1,11 +1,6 @@
 import React from 'react';
 import './UploadPage.scss';
-import {Nav} from '../Header/Header';
-import Main from '../Main/Main';
-import logo from '../Header/HeaderAssets/Logo-brainflix.png';
 import thumbnail from './assets/Upload-video-preview.jpg';
-import Header from '../Header/Header';
-import { BrowserRouter, Link, Route, Redirect } from 'react-router-dom';
 
 function UploadPage() {
         return(
@@ -25,8 +20,11 @@ function UploadPage() {
                        <label className="upload__label" htmlFor="Video">Add a Video Description</label>
                        <textarea className="upload__desc" name="video-desc" id="" cols="30" rows="10" placeholder="Add a description of your video">
                        </textarea>
-                       <button className="upload__publish-btn" type="submit">Publish</button> 
-                       <button className="upload__cancel-btn" type="submit">Cancel</button>
+                       <hr className="upload__split-form"/>
+                       <div className="upload__btn-ctn">
+                            <button className="upload__publish-btn" type="submit">Publish</button> 
+                            <button className="upload__cancel-btn" type="submit">Cancel</button>
+                       </div>
                    </form>
                    </div>
                </div>

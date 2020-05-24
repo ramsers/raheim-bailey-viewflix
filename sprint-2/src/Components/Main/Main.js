@@ -5,7 +5,6 @@ import MainVidContent from '../MainVidContent/MainVidContent';
 import GenerateComments from '../GenComments/GenComments';
 import Comments from '../Comments/Comments';
 import NextVideo from '../NextVideo/NextVideo';
-import MainVideoData from './MainData/MainVideoData';
 import axios from 'axios';
 
 const API_KEY = `659d0d96-1273-4761-9613-1b3c1823a38b`;
@@ -18,12 +17,8 @@ class Main extends React.Component {
     }
 
     componentDidMount() {
-        console.log("is mounting")
-        // const { vidId } = this.props.match.params
-        // console.log(this.props.match.params)
         axios.get(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
         .then((res1) => {
-            console.log(res1.data)
             this.setState({
                 currVidData: res1.data
             })
@@ -33,7 +28,6 @@ class Main extends React.Component {
         })
         axios.get(`${API_URL}/videos/?api_key=${API_KEY}`)
         .then(res2 =>{
-            console.log(res2.data);
             this.setState({
               sideVidData: res2.data  
             })
@@ -44,9 +38,6 @@ class Main extends React.Component {
         
     }
 
-    fetchData =() => {
-
-    }
    
  
     componentDidUpdate(prevProps) {
@@ -56,7 +47,6 @@ class Main extends React.Component {
         if(vidId !== previousVidId && !vidId) {
             axios.get(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
         .then(response => {
-            console.log(response.data);
             this.setState({
                 currVidData: response.data
             },
@@ -65,7 +55,6 @@ class Main extends React.Component {
         } else if(vidId !== previousVidId) {
             axios.get(`${API_URL}/videos/${vidId}?api_key=${API_KEY}`)
             .then(response => {
-                console.log(response.data);
                 this.setState({
                     currVidData: response.data
                 }

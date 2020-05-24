@@ -1,8 +1,5 @@
 import React from 'react';
-import Main from '../Main/Main';
-import MainImg from './HeroAssets/video-list-0.jpg';
 import fullscreen from './HeroAssets/Icon-fullscreen.png';
-import pause from './HeroAssets/Icon-pause.png';
 import play from './HeroAssets/Icon-play.png';
 import volume from './HeroAssets/Icon-volume.png';
 

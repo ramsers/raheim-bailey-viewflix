@@ -2,8 +2,7 @@ import React from 'react';
 import search from './FormAssets/Icon-search.png';
 import upload from './FormAssets/Icon-upload.png';
 import userImg from './FormAssets/Mohan-muruge.jpg';
-import {BrowserRouter,Router, Route, Link, NavLink, Switch, Redirect} from 'react-router-dom';
-import UploadPage from '../UploadPage/UploadPage';
+import {Link} from 'react-router-dom';
 
 function Form (props){
     let match = props.match;

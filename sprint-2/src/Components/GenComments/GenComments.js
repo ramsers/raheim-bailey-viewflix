@@ -1,7 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-const API_KEY = `659d0d96-1273-4761-9613-1b3c1823a38b`;
-const API_URL = 'https://project-2-api.herokuapp.com'
 
 class GenerateComments extends React.Component {
 
@@ -12,7 +9,7 @@ class GenerateComments extends React.Component {
             return (<div><h1>Loadng...</h1></div>)
         }
         return (
-            
+
             userComments.map(comment =>{
                 let timestamp = comment.timestamp;
                 let dateObj = new Date(timestamp);
@@ -20,7 +17,6 @@ class GenerateComments extends React.Component {
                 let month = (dateObj.getMonth() + 1);
                 let date = dateObj.getDate();
                 let commentDate = `${month}/${date}/${year}`;
-                console.log(commentDate);
                 return(
                     <div key={comment.id} className="comments__ctn">
                         <div  className="comments__user-comment-ctn">
