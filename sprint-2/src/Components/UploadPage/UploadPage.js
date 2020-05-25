@@ -11,10 +11,11 @@ function UploadPage() {
                <div className="upload">
                    <h2 className="upload__header">Upload Video</h2>
                    <h4 className="upload__thumbnail-head">Video Thumbnail</h4>
-                   <img className="upload__thumbnail-img" width="100px"src={thumbnail} alt=""/>
+                   
                    
                    <div className="upload__form-ctn">
-                   <form action="">
+                   <img className="upload__thumbnail-img" width="100px"src={thumbnail} alt=""/>
+                   <form className="upload__form" action="">
                        <label className="upload__label" htmlFor="Video">Title Your Video</label>
                        <input className="upload__title" name="video" type="text" placeholder="Add a title to your video"/>
                        <label className="upload__label" htmlFor="Video">Add a Video Description</label>

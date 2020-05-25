@@ -11,11 +11,23 @@
 
 .upload{
     height: 100vw;
+    @include desktop-small {
+        height: 100%;
+    }
+    @include desktop-lg {
+        height: 100%;
+    }
     &__ctn{
         padding: 0 1rem 0 1rem;
         height: 100%;
         @include tablet {
             padding: 0 1.5rem 0 1.5rem;
+        }
+        @include desktop-small {
+            padding: 0 3rem 0 3rem;
+        }
+        @include desktop-lg {
+            padding: 0 3rem 0 3rem;
         }
     }
     &__split{
@@ -59,12 +71,40 @@
             width: 50%;
             height: 11.5rem;
         }
+        @include desktop-small {
+            width: 35.5%;
+            margin-right: 1.5rem;
+            height: 15.2rem;
+        }
+        @include desktop-lg {
+            width: 35.5%;
+            margin-right: 1.5rem;
+            height: 15.2rem;
+        }
     }
     &__form-ctn{
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        @include desktop-small {
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        @include desktop-lg {
+            flex-wrap: nowrap;
+            position: relative;
+        }
+    }
+    &__form {
+        @include desktop-small {
+            margin-top: -23px;
+            width: 100%;
+        }
+        @include desktop-lg {
+            margin-top: -23px;
+            width: 100%;
+        }
     }
     &__label {
         text-transform: uppercase;
@@ -92,6 +132,12 @@
             color: $black;
             font-size: 1rem;
         }
+        @include desktop-small {
+            width: 100%;
+        }
+        @include desktop-lg {
+            width: 100%;
+        }
     }
     &__desc{
         margin-top: .5rem;
@@ -109,20 +155,42 @@
             color: $black;
             font-size: 1rem;
         }
+        @include desktop-small {
+            width: 100%;
+        }
+        @include desktop-lg {
+            width: 100%;
+        }
     }
     &__split-form {
         display: none;
         @include tablet {
             display: block;
             height: 1px;
-            background-color: $mercury;
+            background-color: $silver;
             margin: 1.5rem 0 3rem 0;
+        }
+        @include desktop-small {
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
+        @include desktop-lg {
+            position: absolute;
+            width: 100%;
+            left: 0;
         }
     }
     &__btn-ctn {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-start;
+        @include desktop-small {
+            margin-top: 4rem;
+        }
+        @include desktop-lg {
+            margin-top: 4rem;
+        }
     }
     &__publish-btn {
         width: 100%;
