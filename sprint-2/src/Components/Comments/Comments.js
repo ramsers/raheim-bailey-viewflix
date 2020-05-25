@@ -11,11 +11,11 @@ class Comments extends React.Component {
                     <div className="comments__form-ctn">
                         <form action="" method="POST" encType="" className="comments__form">
                             <div className="comments__img-ctn">
-                                <img className="comments__user-img" src={UserImg} alt="comment poster picture"/>
+                                <img className="comments__user-img-1" src={UserImg} alt="comment poster"/>
                             </div>
                             <div className="comments__form-info-ctn">
                                 <label htmlFor="comments" className="comments__title-2">Join the Conversation</label>
-                                    <input className="comments__field" type="text" name="userVoice" placeholder="That was easily the most spectacular BMX moment ever." required=""/>
+                                    <input className="comments__field" type="text" name="userVoice" placeholder="Write comment here" required=""/>
                                     <button className="comments__btn" type="submit">Comment</button>
                             </div>
                         </form>

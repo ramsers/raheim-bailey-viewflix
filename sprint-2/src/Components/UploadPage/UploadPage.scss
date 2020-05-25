@@ -151,9 +151,11 @@
         margin-bottom: 1.5rem;
         &::placeholder {
             padding-left: 1rem;
+            text-align: start;
             padding-top: 1rem;
             color: $black;
             font-size: 1rem;
+            vertical-align: top;
         }
         @include desktop-small {
             width: 100%;
@@ -182,9 +184,11 @@
         }
     }
     &__btn-ctn {
-        display: flex;
+        @include tablet {
+            display: flex;
         flex-direction: row-reverse;
         justify-content: flex-start;
+        }
         @include desktop-small {
             margin-top: 4rem;
         }

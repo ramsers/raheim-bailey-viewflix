@@ -71,9 +71,11 @@
             height: 60px;
             width: 60px;
             border-radius: 50%;
+            margin-right: 1rem;
             background-color: $mercury;
         }
         &__form-ctn {
+            border-bottom: 1px solid $mercury;
             @include tablet {
                 display: flex;
                 flex-direction: column;
@@ -87,9 +89,6 @@
                 width: 95%;
             }
         }
-        // .user {
-            
-        // }
         &__comments-ctn {
             @include tablet {
                 width: 73vw;

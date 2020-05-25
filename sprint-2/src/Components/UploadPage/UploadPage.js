@@ -5,7 +5,6 @@ import thumbnail from './assets/Upload-video-preview.jpg';
 function UploadPage() {
         return(
             <>
-            
            <div className="upload__ctn">
                <hr className="upload__split"/>
                <div className="upload">

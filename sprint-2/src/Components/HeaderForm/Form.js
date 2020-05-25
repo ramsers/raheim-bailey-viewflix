@@ -5,22 +5,21 @@ import upload from './FormAssets/Icon-upload.png';
 import userImg from './FormAssets/Mohan-muruge.jpg';
 import {Link} from 'react-router-dom';
 
-function Form (props){
-    let match = props.match;
+function Form (){
         return(
             <div className="header__form-ctn">
                 <form className="header__form" action="Post">
                     <img className="header__search" src={search} alt="Brainflix Logo"/>
                     <input className="header__input" type="text" name="Search" placeholder="Search"/>
                        <Link to="/upload">
-                        <button className="header__button">
-                            <img className="header__upload" src={upload} alt="Upload Icon"/>
-                                Upload
-                        </button>
-                        {/* Take away button html and put classname in Link */}
+                            <button className="header__button">
+                                <img className="header__upload" src={upload} alt="Upload Icon"/>
+                                    Upload
+                            </button>
                         </Link>
-                    
-                    <span><img className="header__user-img"  src={userImg} alt="User Image"/></span>
+                    <span>
+                        <img className="header__user-img"  src={userImg} alt="User Account"/>
+                    </span>
                 </form>
             </div>
         )

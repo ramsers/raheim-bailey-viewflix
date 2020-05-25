@@ -50,6 +50,11 @@
             flex-direction: row;
         }
     }
+    &__user-img-1 {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
     &__title {
         font-size: 1rem;
         color: $silver;
@@ -76,23 +81,28 @@
         margin-bottom: 1.5rem;
         color: $black;
         position: relative;
+        text-overflow: ellipsis !important;
         &:focus{
             border: 2px solid $black;
         }
         &::placeholder {
             color: $black;
-            padding-left: .2rem;
+            padding-top: 0.7rem;
+            padding-left: .5rem;
         }
         @include tablet {
-            padding: 15px 0 40px 10px;
             height:56px;
             width: 65%;
+            &::placeholder {
+                color: $black;
+                padding-left: .9rem;
+            }
         }
         @include desktop-small {
+            padding-left: .5rem;
             width: 65%;
         }
         @include desktop-lg {
-            padding: 15px 0 40px 10px;
             height:56px;
             width: 65%;
         }

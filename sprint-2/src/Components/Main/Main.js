@@ -16,56 +16,50 @@ class Main extends React.Component {
         sideVidData: [],
     }
 
+    fetchDataMain = (url) => {
+        axios.get(`${url}`)
+        .then(response => {
+            this.setState({
+                currVidData: response.data
+            })
+        })
+        .catch(error => {
+            return error;
+        })
+    }
+
+    fetchDataSide = (url) => {
+        axios.get(`${url}`)
+        .then(response => {
+            this.setState({
+                sideVidData: response.data
+            })
+        })
+        .catch(error => {
+            return error;
+        })
+    }
+
     componentDidMount() {
-        axios.get(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
-        .then((res1) => {
-            this.setState({
-                currVidData: res1.data
-            })
-        })
-        .catch(error=>{
-            console.log("error bro", error)
-        })
-        axios.get(`${API_URL}/videos/?api_key=${API_KEY}`)
-        .then(res2 =>{
-            this.setState({
-              sideVidData: res2.data  
-            })
-        })
-        .catch(error=>{
-            console.log("error bro", error)
-        })
-        
+        this.fetchDataMain(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
+        this.fetchDataSide(`${API_URL}/videos/?api_key=${API_KEY}`)
     }
 
    
- 
     componentDidUpdate(prevProps) {
         let { vidId } = this.props.match.params;
         let previousVidId = prevProps.match.params.vidId;
 
         if(vidId !== previousVidId && !vidId) {
-            axios.get(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
-        .then(response => {
-            this.setState({
-                currVidData: response.data
-            },
-            )
-        })
-        } else if(vidId !== previousVidId) {
-            axios.get(`${API_URL}/videos/${vidId}?api_key=${API_KEY}`)
-            .then(response => {
-                this.setState({
-                    currVidData: response.data
-                }
-                )
-            })
+            this.fetchDataMain(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
+
+        } else if (vidId !== previousVidId) {
+            this.fetchDataMain(`${API_URL}/videos/${vidId}?api_key=${API_KEY}`)
         }
         
     }
 
     
-
     render() {
         return(
             <main className="main-content">
