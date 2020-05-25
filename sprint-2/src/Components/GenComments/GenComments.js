@@ -1,4 +1,5 @@
 import React from 'react';
+import './GenComments.scss';
 
 class GenerateComments extends React.Component {
 
@@ -27,7 +28,7 @@ class GenerateComments extends React.Component {
                                     <p className="comments__comment">{comment.comment}</p>
                                 </div>
                                 <div   className="comments__img-ctn">
-                                    <img   src={comment.image} className="comments__user-img" alt="comment profile image"/>
+                                    <div className="comments__user-img" ></div>
                                 </div>
                             </div>
                         </div>

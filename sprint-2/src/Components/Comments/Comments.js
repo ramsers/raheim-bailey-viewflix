@@ -16,7 +16,6 @@ class Comments extends React.Component {
                             <div className="comments__form-info-ctn">
                                 <label htmlFor="comments" className="comments__title-2">Join the Conversation</label>
                                     <input className="comments__field" type="text" name="userVoice" placeholder="That was easily the most spectacular BMX moment ever." required=""/>
-                                    {/* <p className="comments__placeholder">That was easily the most spectacular BMX moment ever.</p> */}
                                     <button className="comments__btn" type="submit">Comment</button>
                             </div>
                         </form>
