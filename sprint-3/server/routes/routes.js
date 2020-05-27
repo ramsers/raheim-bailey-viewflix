@@ -6,5 +6,8 @@ let videos = require('../sideVidData/sideVidData');
 router.get('/', (req, res)=> {
     res.json(videos);
 })
+router.post('/', (req, res)=> {
+    
+})
 
 module.exports = router;
