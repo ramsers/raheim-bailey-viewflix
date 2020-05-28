@@ -1,13 +1,15 @@
 const express = require('express');
 const router = express.Router();
-let videos = require('../sideVidData/sideVidData');
+let videosData = require('../sideVidData/sideVidData');
 
 
 router.get('/', (req, res)=> {
-    res.json(videos);
+    res.json(videosData);
 })
-router.post('/', (req, res)=> {
-    
+router.get('/:vidId', (req, res)=> {
+    return res.status(200).json((videosData).filter(video => {
+        return video.id === req.params.vidId;
+    }))
 })
 
 // router.get('/:id', (req))
