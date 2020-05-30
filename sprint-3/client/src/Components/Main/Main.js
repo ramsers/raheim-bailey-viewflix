@@ -7,8 +7,7 @@ import Comments from '../Comments/Comments';
 import NextVideo from '../NextVideo/NextVideo';
 import axios from 'axios';
 
-const API_KEY = `659d0d96-1273-4761-9613-1b3c1823a38b`;
-const API_URL = 'https://project-2-api.herokuapp.com'
+const API_URL = 'http://localhost:8080';
 
 class Main extends React.Component {
     state = {
@@ -20,7 +19,7 @@ class Main extends React.Component {
         axios.get(`${url}`)
         .then(response => {
             this.setState({
-                currVidData: response.data
+                currVidData: response.data[0]
             })
         })
         .catch(error => {
@@ -41,8 +40,8 @@ class Main extends React.Component {
     }
 
     componentDidMount() {
-        this.fetchDataMain(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
-        this.fetchDataSide(`${API_URL}/videos/?api_key=${API_KEY}`)
+        this.fetchDataMain(`${API_URL}/videos`)
+        this.fetchDataSide(`${API_URL}/videos`)
     }
 
    
@@ -51,10 +50,10 @@ class Main extends React.Component {
         let previousVidId = prevProps.match.params.vidId;
 
         if(vidId !== previousVidId && !vidId) {
-            this.fetchDataMain(`${API_URL}/videos/1af0jruup5gu?api_key=${API_KEY}`)
+            this.fetchDataMain(`${API_URL}/videos/1af0jruup5gu`)
 
         } else if (vidId !== previousVidId) {
-            this.fetchDataMain(`${API_URL}/videos/${vidId}?api_key=${API_KEY}`)
+            this.fetchDataMain(`${API_URL}/videos/${vidId}`)
         }
         
     }
