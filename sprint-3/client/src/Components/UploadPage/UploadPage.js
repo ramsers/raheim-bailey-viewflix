@@ -13,36 +13,29 @@ class UploadPage extends React.Component {
         
     }
 
-    // componentDidMount() {
-    //     axios.get('http://localhost:8080/videos')
-    //       .then(response => {
-    //         console.log(response.data);
-    //         this.setState({
-    //           videosData: response.data
-    //         })
-    //       })
-    //   }
+    postRequest = (url, kvPairs, state) => {
+        axios.post(`${url}`, kvPairs)
+        .then(()=> {
+            this.setState({
+                videosData: state
+            })
+        })
+    }
 
     addVideo = (e) => {
         e.preventDefault()
-        let id = uuid()
         let image = thumbnail;
         let newVid = this.state.videosData.slice()
         let title = e.target.title.value;
         let description = e.target.description.value;
-        let duration = "4:32";
         newVid.push({title, description})
         console.log(newVid)
-        axios.post(`${API_URL}/videos`, {id:id, title:title, 
+        this.postRequest(`${API_URL}/videos`, 
+        {title:title, 
             description:description, 
-            // duration:duration,
-            image:image
-        })
-        .then(()=> {
-            this.setState({
-                videosData: newVid
-            })
-        })
+            image:image}, 
+            newVid
+         )
     }
 
     render() {

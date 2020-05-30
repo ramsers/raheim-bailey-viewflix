@@ -17,8 +17,10 @@
     &__main-vid-ctn {
         @include desktop-small{
             position: relative;
+            width: 70vw;
         }
         @include desktop-lg {
+            width: 70vw;
             position: relative;
         }
     }
