@@ -34,6 +34,7 @@ class UploadPage extends React.Component {
             image:image}, 
             newVid
         )
+        e.target.reset();
     }
 
     render() {
