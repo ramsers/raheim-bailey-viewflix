@@ -1,6 +1,6 @@
 import React from 'react';
 import './Comments.scss';
-import UserImg from './CommentsAssets/Mohan-muruge.jpg';
+import UserImg from './CommentsAssets/persona-pic.jpg';
 
 class Comments extends React.Component {
     render() {

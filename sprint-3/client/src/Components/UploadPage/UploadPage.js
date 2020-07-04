@@ -1,6 +1,6 @@
 import React from 'react';
 import './UploadPage.scss';
-import thumbnail from './assets/Upload-video-preview.jpg';
+import thumbnail from './assets/upload-img.jpg';
 import axios from 'axios';
 
 const API_URL = 'http://localhost:8080';

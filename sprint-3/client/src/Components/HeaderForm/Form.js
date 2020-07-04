@@ -2,7 +2,7 @@ import React from 'react';
 import './Form.scss';
 import search from './FormAssets/Icon-search.png';
 import upload from './FormAssets/Icon-upload.png';
-import userImg from './FormAssets/Mohan-muruge.jpg';
+import userImg from './FormAssets/persona-pic.jpg';
 import {Link} from 'react-router-dom';
 
 function Form (){

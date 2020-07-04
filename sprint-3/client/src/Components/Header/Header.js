@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from '../HeaderForm/Form';
 import './Header.scss';
-import logo from './HeaderAssets/Logo-brainflix.png';
+import logo from './HeaderAssets/viewflix-logo.png';
 import {Link} from 'react-router-dom';
 
 class Header extends React.Component {

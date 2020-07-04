@@ -55,7 +55,6 @@ class Main extends React.Component {
         } else if (vidId !== previousVidId) {
             this.fetchDataMain(`${API_URL}/videos/${vidId}`)
         }
-        
     }
 
     
