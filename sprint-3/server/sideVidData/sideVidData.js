@@ -2,10 +2,10 @@
     let videos =[
         {
             "id": "1af0jruup5gu",
-            "title": "BMX Rampage: 2018 Highlights",
-            "channel": "Red Cow",
-            "image": "https://i.imgur.com/knTHcTC.jpg",
-            "description": "On a gusty day in Southern Utah, a group of 25 daring mountain bikers blew the doors off what is possible on two wheels, unleashing some of the biggest moments the sport has ever seen. While mother nature only allowed for one full run before the conditions made it impossible to ride, that was all that was needed for event veteran Kyle Strait, who won the event for the second time -- eight years after his first Red Cow Rampage title",
+            "title": "Quick & Simple Recipes",
+            "channel": "Cook With Me",
+            "image": "https://i.imgur.com/J3JQ24i.jpg",
+            "description": "Check out these quick and simple recipes that can be made in only a few minutes. Learn how to make the perfect roasted herb chicken from an expert chef. ",
             "views": "1,001,023",
             "likes": "110,985",
             "duration": "4:01",
@@ -14,21 +14,21 @@
             "comments": [
                     {
                     "name": "Othwi Yake",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": " These recipes look great, I'm definitely going to try making the chicken recipe later this week. Thanks!",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Norma Cenva",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Am I the only one who watches these videos without actually intending to cook anything??",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Moneo Atreides",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "I love to watching these types of videos. They make me believe I can do this too. She is a true master chef. Thanks for helping me cook and getting me outside of my comfort zone.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -37,10 +37,10 @@
         },
         {
             "id": "1ainjruutd1j",
-            "title": "Become A Travel Pro In One Easy Lesson",
-            "channel": "Todd Welch",
+            "title": "My Top Travel Tips!",
+            "channel": "Travel Bug",
             "image": "https://i.imgur.com/GEaIizW.jpg",
-            "description": "Luxury is something everyone deserves from time to time. Such an indulgence can make a vacation a truly rejuvenating experience. This video will focus a lot on helping the first time or inexperienced traveler head out prepared and confident in themselves.",
+            "description": "Here are my best travel life hacks and travel tips! I travel quite often so I thought I would share all my little secrets :) I hope you guys find this helpful!!!",
             "views": "2,043,765",
             "likes": "400,058",
             "duration": "7:26",
@@ -49,21 +49,21 @@
             "comments": [
                 {
                 "name": "Hadi Benotto",
-                "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                "comment": "Who else watches these videos because they are going on a trip soon!?",
                 "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                 "likes": 0,
                 "timestamp": 1545162149000
                 },
                 {
                 "name": "Ziarenka Valefor",
-                "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                "comment": "This video came out at the most perfect time cuz im traveling tomorrow. Just what I needed because I was feeling a little nervous.",
                 "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                 "likes": 0,
                 "timestamp": 1544595784046
                 },
                 {
                 "name": "Shakir Ali",
-                "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                "comment": "Always pre-order a special meal on your flight... If I preorder the Vegetarian meal I will get my food before everybody else on the plane.",
                 "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                 "likes": 0,
                 "timestamp": 1542262984046
@@ -72,10 +72,10 @@
         },
         {
             "id": "1aivjruutn6a",
-            "title": "Les Houches The Hidden Gem Of The Chamonix",
-            "channel": "Cornelia Blair",
+            "title": "How to Ski In One Day",
+            "channel": "Skiing Tuts",
             "image": "https://i.imgur.com/GfxNSFF.jpg",
-            "description": "Les Houches, located 6 kilometres from Chamonix, is a ski resort with a domain which extends from an altitude of 950 metres up to 1900 metres. Long descents through tree-lined slopes are combined with impressive views of the Mont Blanc massif and the Chamonix valley. Les Houches is twinned with the Russian villages of Sochi and Krasnaya-Polyana and was chosen by the International Olympic Committee to assist in the organization of the 2014 Winter Olympic Games. Watch for more fun facts!",
+            "description": "In this ski tutorial, we show you how to how to ski in one day. We get to follow along as I teach an absolute beginner how to use the skis, how to have good posture when skiing, how to snowplough turn and we increase the difficulty by skiing faster and making bigger turns.",
             "views": "16,950",
             "likes": "3,856",
             "duration": "4:13",
@@ -84,14 +84,14 @@
             "comments": [
                     {
                     "name": "Essas Paymon",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "I've taught ten of my friends over my life and this will be a good resource to add to the curriculum! Maybe it will help take some time off the learning curve.",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Ghadhean al-Fali",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Nice! I must be going snow skiing soon! Keep us updated on the students progress. Great job to both of you and keep up the great work.",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
@@ -107,10 +107,10 @@
         },
         {
             "id": "1a3cjruucpf7",
-            "title": "Travel Health Useful Medical Information For",
-            "channel": "Glen Harper",
+            "title": "Travel Health Essential Tips",
+            "channel": "TravelTipsToday",
             "image": "https://i.imgur.com/CWz2ayD.jpg",
-            "description": "Concerned about your health while travelling? You should know that international travellers should always be extra concerned about their health and safety. This video provides essential information on travel health risks and preventive measures to keep you and your loved ones safe during your travels.",
+            "description": "How to stay healthy when traveling.  Here are some of my best strategies so that you stay healthy and fit while on the road. I share with you what to do while in the plane and what to do as soon as you are off.",
             "views": "739,945",
             "likes": "98,352",
             "duration": "8:34",
@@ -119,21 +119,21 @@
             "comments": [
                     {
                     "name": "Buer Agarves",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "LOVED the video and the tips! So important to take care of ourselves when we travel. Thanks for this great video! Also, I use both grapefruit seed extract and Oregano oil already and am OBSESSED with both!",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Chani Kynes",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Not only have subscribed, I'm part of your community.  Quite frankly, I think everyone that is subscribed to you should be part of your community.",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Alia Atreides",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "Thank you for these very useful tips. Have been looking for a way to stay healthy while traveling abroad.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -142,10 +142,10 @@
         },
         {
             "id": "1am3jruuwagz",
-            "title": "Cheap Airline Tickets Great Ways To Save",
-            "channel": "Emily Harper",
+            "title": "How to Find Cheap Flights",
+            "channel": "MoLife",
             "image": "https://i.imgur.com/HRFYCf5.jpg",
-            "description": "Want to know how to get cheap flights? This video has great tips on how to book the cheapest flight possible to anywhere in the world. Remember, Keep your searches top secret. Use the best flight search engines. Identify the cheapest day to fly out. Fly for free with points. Befriend budget airlines. Search for airline error and sale fares. Book connecting flights yourself for less. ",
+            "description": "LIFEHACK: How to find Cheap Flights every time! Save money on Flights with these Travel Tips.",
             "views": "72,342",
             "likes": "8,785",
             "duration": "2:59",
@@ -154,21 +154,21 @@
             "comments": [
                     {
                     "name": "Umman Kudu",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "Just wanted to reach out and say thank you for showing me these two sites. I was trying to fit in two different trips and with your tutorial, not only did I get two flights for two separate vacations but I got both for the Cost of one of my trips. Thank you again and keep up the good work",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Duncan Idaho",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "This tool (and Google Flights) helped me find a rare $170 USD flight from LAX to MIA (with a MCO connection) last year so thank you!",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Shadout Mapes",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "Thank you for this video. I looked at this video today to have a look at fuel surcharges. I can now see with your help how to get a cheaper flight.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -178,7 +178,7 @@
         {
             "id": "1akljruuvhzt",
             "title": "Take A Romantic Break In A Boutique Hotel",
-            "channel": "Ethan Owen",
+            "channel": "Wanderlust",
             "image": "https://i.imgur.com/lO7zxRB.jpg",
             "description": "Your loved one has been dreaming about a romantic getaway with you, if you want to bring the spark back into your relationship this is the place to go! Small and design-forward, boutique hotels promise a more intimate vacation stay, each one chock-full of character while offering plenty of inimitable features (from exposed brick to panoramic ocean views)",
             "views": "345,987",
@@ -189,21 +189,21 @@
             "comments": [
                     {
                     "name": "Rabban Harkonnen",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "Your narration have me goosebumps! I wish I could talk like that wow. What a great room, love that you got a welcome drink and rum and cake! I need to come travel with you.",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Staban Tuek",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Wow, that opening shot is so stunning with the sound as well! Great opening you immediately got my interest and attention with that opening sequence!",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Esmar Tuek",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "the cinematics at the beginning... awesome! i can see the hospitality of the staff.... i like the welcome drinks and the free rum...love how they leave chocolates and setting the romantic vibe of the room too.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -213,9 +213,9 @@
         {
             "id": "1ae5jruuoc4q",
             "title": "Choose the Perfect Accommodations",
-            "channel": "Lydia Perez",
+            "channel": "Travel101",
             "image": "https://i.imgur.com/TFMYqk7.jpg",
-            "description": "Worried about finding the perfect travel accommodations? There are many things to consider when booking an accommodation. Consider picking the right location. Location is an important consideration for an enjoyable stay. Check the rating and price. Consider apartment or condo rentals. Weigh the food options. Is it family-friendly? Watch for extra fees. Assess the on-site amenities.",
+            "description": "Where should you stay on your travels? Which hotel should you choose? Which hotel, hostel, guesthouse is the best option for you on your travels?",
             "views": "252,796",
             "likes": "4,905",
             "duration": "7:31",
@@ -224,21 +224,21 @@
             "comments": [
                     {
                     "name": "Yueh",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "Your videos are soo good, where was the cave villa again and do they have a website? Would defnitely love to travel there some day.",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Feyd Rautha",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "I have a question, do you plan where you are going to stay at before you depart. Or do you sort of wing it, go and then find a place to stay?",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Liet Kynes",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "I really wanna go and travel around the world but im a total beginner, I have NO experience whatsoever so i was wondering, say if i wanted to go to 10 countries in 2 months, how much money will I roughly need? should you book flights and hotels in advance or buy/book as you go?",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -248,9 +248,9 @@
         {
             "id": "1a4kjruuedd9",
             "title": "Cruising Destination Ideas",
-            "channel": "Timothy Austin",
+            "channel": "Cruisn With Ben",
             "image": "https://i.imgur.com/telkC3Q.jpg",
-            "description": "Do you dream of sailing in to the sunset without a care in the world? Going on a cruise can be the perfect way to make this dream come true. If you’re considering taking your very first cruise, think about the various advantages. A cruise vacation offers great value as almost everything is included, from accommodation and food to entertainment and transfers.",
+            "description": "We list our the most popular cruise destinations for 2019.  To help you pick your first cruise, we've selected the five best destinations. We look at cruises in the Caribbean, Alaska, Mediterranean, The Baltic, Norwegian Fjords, Australia and New Zealand.",
             "views": "29,984",
             "likes": "2,552",
             "duration": "5:58",
@@ -259,21 +259,21 @@
             "comments": [
                     {
                     "name": "Helen Mohiam",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "Had a smile on my face from the first 5 seconds!  Thanks for another great video. We're planning our first cruise and we're incredibly excited.",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Glossu Rabban",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Awesome video guys thank you so much for sharing we would love to visit Southampton and sail on the Queen Mary.",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Fenring Duncan",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "I loved the Alaska cruise (my only cruise so far, but rectifying that in July) and the scenery was breathtaking.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
@@ -282,10 +282,10 @@
         },
         {
             "id": "1a8qhruuzky3",
-            "title": "Train Travel On Track For Safety",
-            "channel": "Scotty Cranmer",
+            "title": "How to Travel Europe by Train!",
+            "channel": "TrainTravels",
             "image": "https://i.imgur.com/dwpxQOm.jpg",
-            "description": "Traveling by train can be convenient, enjoyable and economical. You can minimize your risk of injury, illness, and theft by taking a few simple precautions. Before you travel, you should pack only the necessities. This will make your luggage easy to carry and store during your travels. You should always assume that the tap water on the train is not potable. Whenever it is possible, stock up on bottles of water to reduce the risk of dehydration. Remember, never accept food or drinks from strangers!",
+            "description": "How to travel europe by train! In this interrailing guide I give my interrail tips/interrail advice for anyone wanting to travel across Europe.",
             "views": "3,092,284",
             "likes": "75,985",
             "duration": "4:20",
@@ -294,21 +294,21 @@
             "comments": [
                     {
                     "name": "Princess Irulan",
-                    "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
+                    "comment": "I'm planning on hiking through Europe with my dog so I've been trying to do as much research as I can into which trains will accept her and which won't.",
                     "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
                     "likes": 0,
                     "timestamp": 1545162149000
                     },
                     {
                     "name": "Gurney Halleck",
-                    "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
+                    "comment": "Great Video! Planning to travel Europe next year during my 40th bday with friends. May I know what is the brand of your camera?",
                     "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
                     "likes": 0,
                     "timestamp": 1544595784046
                     },
                     {
                     "name": "Shaddam IV",
-                    "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
+                    "comment": "I loved the train trips in New Zealand, Australia as well as Amtrak across America! Last year we did Denmark by train to get a ferry to Iceland. Hopefully will do some train travel around Europe.",
                     "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
                     "likes": 0,
                     "timestamp": 1542262984046
