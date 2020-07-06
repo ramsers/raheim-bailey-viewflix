@@ -82,6 +82,7 @@
         color: $black;
         position: relative;
         text-overflow: ellipsis !important;
+        padding-left: 10px;
         &:focus{
             border: 2px solid $black;
         }
