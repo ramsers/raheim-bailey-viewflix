@@ -15,3 +15,13 @@
   <li>Users can add their own video and have it appear on the home page</li>
 </ul>
 
+<h3>Created Using/h3>
+
+<ul>
+  <li>React</li>
+  <li>SASS</li>
+  <li>Node</li>
+  <li>Express</li>
+  <li>REST API</li>
+</ul>
+
