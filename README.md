@@ -1,4 +1,4 @@
-#viewflix
+<h1>ViewFlix</h1>
 
 <h2>An mock video streaming site where users are able switch between side videos & upload there own</h2>
 <div></div>
